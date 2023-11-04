@@ -68,7 +68,7 @@
         <div class="container_footer">
             <div class="box__footer">
                 <div class="logo">
-                    <img src="assets/images/logo.png" alt="">
+                    <img src="assets/img/logo.png" alt="">
                 </div>
                 <div class="terms">
                     <p><i class="fas fa-map-marker-alt"></i> Centro cívico, Puerto Ordaz. Ciudad Guayana, estado Bolívar. Edificio #512</p>
@@ -90,7 +90,7 @@
         </div>
     </footer>
     <!--SCRIPTS-->
-    <script src="assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
