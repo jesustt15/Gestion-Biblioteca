@@ -27,12 +27,7 @@
 
 <header class="menu__admin">
     <!--PARTE ARRIBA -->
-    <!--<nav class="navbar fixed-top bg-body-tertiary">
-        <div class="container-fluid">
-         
-  </div>
-</nav>--> 
- 
+
         <div class="icon_menu">
             <i class="fas fa-bars" id="btn_open"></i>
         </div>
@@ -46,28 +41,28 @@
         <h5>Biblioteca</h5>
     </div>
     <div class="options__menu">
-        <!--OPCIONES DEL MENU INICIO -->
+        <!--OPCIONES DEL MENU - INICIO -->
             <a href="#">
                 <div class="option">
                     <i class="fas fa-home" title="Inicio"></i>
                     <h5>Inicio</h5>
                 </div>
             </a>
-        <!--OPCIONES DEL MENU USUARIOS -->
+        <!--OPCIONES DEL MENU - USUARIOS -->
             <a href="#">
                 <div class="option">
                     <i class="fas fa-users" title="Usuarios"></i>
                     <h5>Usuarios</h5>
                 </div>
             </a>
-        <!--OPCIONES DEL MENU LIBROS -->
+        <!--OPCIONES DEL MENU - LIBROS -->
             <a href="#">
                 <div class="option">
                     <i class="fas fa-book" title="Libros"></i>
                     <h5>Libros</h5>
                 </div>
             </a>
-        <!--OPCIONES DEL MENU PRESTAMOS -->
+        <!--OPCIONES DEL MENU - PRESTAMOS -->
             <a href="#">
                 <div class="option">
                     <i class="fas fa-file-alt" title="Prestamos"></i>
