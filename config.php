@@ -1,3 +1,3 @@
 <?php
-    define("urlsite","http://localhost/Gestionbiblioteca/");
+    define("urlsite","http://localhost/Gestion-Biblioteca/");
 ?>

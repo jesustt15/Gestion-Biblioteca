@@ -1,17 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;
 }
 body{
-    background-image: url(../img/fondo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+   
+    background-color: rgba(255, 255, 34, 0.644);
 }
 main{
     width: 100%;
@@ -142,6 +142,9 @@ main{
     }
 }
 /*BODY ADMIN*/
+.carrusel{
+    padding: 50px;
+}
 .b__admin{
     margin-left: 80px;
     transition: margin-left 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -151,7 +154,7 @@ main{
 .menu__admin{
     width: 100%;
     height: 80px;
-    background: rgba(253, 249, 1, 0.89);
+    background: white;
     display: flex;
     align-items: center;
     position: fixed;
@@ -174,7 +177,7 @@ main{
 .menu__side{
     width: 80px;
     height: 100%;
-    background: rgba(70, 70, 99, 0.849);
+    background: #03224f;
     position: fixed;
     top: 0;
     left: 0;
@@ -183,7 +186,7 @@ main{
     z-index: 300;
     overflow: hidden;
     overflow: scroll;
-    border-right: 20px solid rgba(70, 70, 102, 0.849);
+    border-right: 20px solid #03224f;
     transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
@@ -247,6 +250,14 @@ main{
     width: 250px;
 }
 
+/*CERRAR SESION USUARIO*/
+.cerrar_user a{
+   text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 65px;
+
+}
 /*FOOTER*/
 
 footer{
@@ -288,6 +299,7 @@ footer{
     margin-top: 10px;
     color: #7a7a7a;
     font-weight: 600;
+    text-decoration: none;
 }
 .box__footer a:hover{
     opacity: 0.8;

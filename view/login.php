@@ -75,11 +75,13 @@
                 </div>
             </div>
             <div class="box__footer">
-                <h2><i class="far fa-calendar-alt"></i> Horarios de atención <hr> </h2>
-                <p></p>
+                <h2><i class="far fa-calendar-alt"></i> <i>Horarios de atención</i> </h2>
+                <p><i>Lunes a Viernes</i></p>
+                <p><i>De 8:30 A.M a 12:00 P.M. </i></p>
+                <p><i>De 1:00 P.M a 3:45 P.M</i></p>
             </div>
             <div class="box__footer">
-                <h2><i class="fas fa-share-alt"></i>  Redes Sociales<hr></h2>
+                <h2><i class="fas fa-share-alt"></i> <i>Redes Sociales</i> </h2>
                 <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
                 <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
             </div>
