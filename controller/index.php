@@ -63,6 +63,15 @@
 
         
         }
+      }
+      static function usuarios(){
+        require_once 'view/adm/usuarios.php';
+      }
+      static function libros(){
+        require_once 'view/adm/libros.php';
+      }
+      static function prestamos(){
+        require_once 'view/adm/prestamos.php';
       } 
     }
 ?>

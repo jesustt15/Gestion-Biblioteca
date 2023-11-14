@@ -1,6 +1,3 @@
-<?php
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,8 +17,6 @@
 <link rel="stylesheet" href="./assets/css/style.css">
 <!--AWESOME-->
 <script src="https://kit.fontawesome.com/aaff7b5bcd.js" crossorigin="anonymous"></script>
-
-
 </head>
 <body id="b_ad" class="b__admin" >
 
@@ -32,42 +27,44 @@
                 <i class="fas fa-bars fa-2x" id="btn_open"></i>
             </div>
             
-            <div class="cerrar_user">
-              <a href="./cerrar_sesion.php">CERRAR SESIÓN</a>  
+            <div class="container-fluid">
+                <div class="cerrar_user">
+                    <a href="./cerrar_sesion.php">CERRAR SESIÓN</a>  
+                </div>
             </div>
+            
 
     </header>
-
-    <!--MENU-->
-    <div id="menu_side" class="menu__side" >
+ <!--MENU-->
+ <div id="menu_side" class="menu__side" >
         <div class="name__page">
             <i class="fas fa-book-reader" style="color: #ece632;"> </i>
             <h5>Biblioteca</h5>
         </div>
         <div class="options__menu">
             <!--OPCIONES DEL MENU - INICIO -->
-                <a href="#">
+                <a href="index.php?n=inicio">
                     <div class="option">
                         <i class="fas fa-home" title="Inicio"></i>
                         <h5>Inicio</h5>
                     </div>
                 </a>
             <!--OPCIONES DEL MENU - USUARIOS -->
-                <a href="./view/usuarios.php">
+                <a href="index.php?n=usuarios">
                     <div class="option">
                         <i class="fas fa-users" title="Usuarios"></i>
                         <h5>Usuarios</h5>
                     </div>
                 </a>
             <!--OPCIONES DEL MENU - LIBROS -->
-                <a href="./view/libros.php">
+                <a href="index.php?n=libros">
                     <div class="option">
                         <i class="fas fa-book" title="Libros"></i>
                         <h5>Libros</h5>
                     </div>
                 </a>
             <!--OPCIONES DEL MENU - PRESTAMOS -->
-                <a href="./view/prestamos.php">
+                <a href="index.php?n=prestamos">
                     <div class="option">
                         <i class="fas fa-file-alt" title="Prestamos"></i>
                         <h5>Prestamos</h5>
@@ -77,8 +74,35 @@
 
         <!--FIN DEL MENU-->
     </div>
-  <!--PARTE MEDIA -->
-    <main>
+
+ <!--PARTE MEDIA -->
+ <main>
+          <!--CONTENEDOR --><div class="container-fluid">
+    <h1>Usuarios</h1>
+        
+            
+            
+     </div>
+
+        <div class="container-fluid">
+                <div class="carrusel">
+                    <!--IMAGENES CON FRASES-->
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="./assets/img/1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="./assets/img/2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="./assets/img/3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </div>
+           
             
      
     </main>
