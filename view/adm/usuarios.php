@@ -77,33 +77,51 @@
 
  <!--PARTE MEDIA -->
  <main>
-          <!--CONTENEDOR --><div class="container-fluid">
-    <h1>Usuarios</h1>
-        
-            
-            
-     </div>
-
+        <!--CONTENEDOR -->
         <div class="container-fluid">
-                <div class="carrusel">
-                    <!--IMAGENES CON FRASES-->
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img src="./assets/img/1.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="./assets/img/2.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="./assets/img/3.png" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                </div>
+            <!--SECCION-->
+          <h1>Usuarios</h1>
+                 <!--OPCION BUSCAR-->
+            <div class="buscador">
+                <form action="" method="get">
+                    <input type="text" name="query" placeholder="Buscar..."> 
+                    <button class="btn btn-primary" type="submit"><i class="fas fa-search" style="color: #fafafa;"></i></button>
+                </form>
             </div>
-     </div>
-           
-            
+            <!--COMIENZO DE TABLA QUE CONTIENE LOS LIBROS-->
+          <div class="table-responsive">
+                <table class="table table-hover">
+                    <!--PRIMERA LINEA DE TABLA O CABECERA-->
+                    <thead>
+                            <tr>
+                            <th scope="col">Código usuario</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Apellido</th>
+                            <th scope="col">Correo</th>
+                            <th scope="col">Usuario</th>
+                            <th scope="col">Acción</th>
+                            </tr>
+                    </thead>
+                        <tbody>  <!--INICIO DE LAS OTRAS LINEAS DE LA TABLA-->
+                            <tr>
+                            <th scope="row">1</th>
+                            <td>Maria</td>
+                            <td>Col</td>
+                            <td>mariacol@hotmail</td>
+                            <td>maria</td>
+                            <td> <button type="button" class="btn btn-success">Editar</button>
+                                <button type="button" class="btn btn-danger">Eliminar</button> 
+                            </td>
+                            </tr>
+                            <tr>
+                        </tbody> <!--FIN DE LAS LINEAS DE LA TABLA-->
+                       
+                </table>  <!--FIN DE LA CLASE TABLA-->
+
+            </div> <!--FIN DE LA TABLA-->
+               
+                
+        </div>
      
     </main>
 

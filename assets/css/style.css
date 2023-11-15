@@ -258,6 +258,21 @@ main{
     padding-right: 65px;
 
 }
+
+/*BUSCAR*/
+.buscador{
+display: flex;
+justify-content: flex-end;
+padding: 20px;
+
+}
+.buscador input[type="text"]{
+    border-radius: 1px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+   
 /*FOOTER*/
 
 footer{
